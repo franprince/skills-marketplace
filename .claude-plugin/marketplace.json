@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "chowa-skill",
-      "source": "./plugins/chowa-skill",
+      "source": {
+        "source": "github",
+        "repo": "franprince/chowa-skill"
+      },
       "description": "Spec-driven pipeline, atomic commits, PR generation, and mechanical delegation — pure skill, no CLI or bundled engine"
     }
   ]
