@@ -7,8 +7,36 @@
   "plugins": [
     {
       "name": "chowa-skill",
-      "source": "./plugins/chowa-skill",
+      "source": {
+        "source": "github",
+        "repo": "franprince/chowa-skill"
+      },
       "description": "Spec-driven pipeline, atomic commits, PR generation, and mechanical delegation — pure skill, no CLI or bundled engine"
+    },
+    {
+      "name": "media-library",
+      "source": {
+        "source": "local",
+        "path": "./skills/media-library"
+      },
+      "description": "Automated batch MKV track flags manager, Bazarr subtitle rules, and container media stack controller"
+    },
+    {
+      "name": "service-health",
+      "source": {
+        "source": "local",
+        "path": "./skills/service-health"
+      },
+      "description": "Check whether Radarr, Sonarr, Plex, qBittorrent, or NZBGet is online, and inspect free disk space across Radarr/Sonarr root folders"
+    },
+    {
+      "name": "download-queue",
+      "source": {
+        "source": "local",
+        "path": "./skills/download-queue"
+      },
+      "description": "Inspect and control the qBittorrent torrent queue and read the NZBGet download queue and status"
     }
   ]
 }
+
