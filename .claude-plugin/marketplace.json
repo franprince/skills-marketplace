@@ -36,6 +36,14 @@
         "path": "./skills/download-queue"
       },
       "description": "Inspect and control the qBittorrent torrent queue and read the NZBGet download queue and status"
+    },
+    {
+      "name": "channel-director",
+      "source": {
+        "source": "local",
+        "path": "./skills/channel-director"
+      },
+      "description": "Orchestrate custom ErsatzTV IPTV linear channels, EPG daily guide schedules, and block programming"
     }
   ]
 }
